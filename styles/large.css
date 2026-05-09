@@ -133,7 +133,7 @@
         color: var(--black-color);
         padding: 12px;
         text-align: center;
-        border: 1px solid var(--border-ligth);
+        border: 1px solid var(--border-color);
         border-radius: 5px;
         font-weight: bold;
         font-size: 1rem;
