@@ -4,11 +4,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
+    <title>WDD 231 | Kelvin Gonzalez Mora | Course Home Page</title>
+    <meta name="description"
+        content="Main page of the WDD 231 course by Kelvin Gonzalez Mora, which includes responsive web design projects, JavaScript applications, and web development.">
+    <meta name="author" content="Kelvin Gonzalez Mora">
+
+    <link rel="icon" href="images/logo.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 </head>
 
 <body>
-    <h1>WDD 231 - Kelvin</h1>
+    <header>
+        <img src="images/logo.svg" alt="site logo">
+        <span>Kelvin Gonzalez Mora</span>
+        <button id="nav-button" class="hamburger" aria-label="Open navigation menu"></button>
+    </header>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="final/index.html">Final</a>
+    </nav>
+
+    <main>
+        <h1>Home</h1>
+        <section>
+            <h2>About Me</h2>
+            <p>My name is Kelvin Gonzalez Mora, and I am studying web development to improve my skills in programming
+                and
+                modern website design.
+                I enjoy building responsive websites, learning JavaScript, and creating clean user experiences.
+                I am from Ecuador and continue working on projects that help me grow as a future web developer.
+            </p>
+        </section>
+
+        <section>
+            <h2>Student Photo</h2>
+            <div class="photo-container">
+                <img src="images/profile.webp" alt="Kelvin Gonzalez Mora - Student Photo">
+            </div>
+        </section>
+
+        <section>
+            <h2>Web Certificate Courses</h2>
+
+            <div class="filter-buttons">
+                <button id="all">All</button>
+                <button id="wdd">WDD</button>
+                <button id="cse">CSE</button>
+            </div>
+
+            <div id="courses"></div>
+
+            <p>Total Credits: <span id="totalCredits"></span></p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kelvin-j-gonzalez/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Kelvingonzalezm/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub">
+            </a>
+            <a href="https://x.com/KelvinK85288" target="_blank">
+                <img src="images/twitter_x.webp" alt="X">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>
+                &copy;<span id="currentyear"></span>
+                Kelvin Gonzalez Mora - Ecuador
+            </p>
+
+            <p id="lastModified"></p>
+        </div>
+    </footer>
 </body>
 
 </html>
