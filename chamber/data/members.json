@@ -1,0 +1,60 @@
+{
+    "members": [
+        {
+            "name": "Malecón Market",
+            "address": "Malecón Simón Bolivar 456, Guayaquil, Ecuador",
+            "phone": "+593 90000001",
+            "website": "https://maleconmarket.ec",
+            "image": "market.webp",
+            "membership": 2
+        },
+        {
+            "name": "Guayaquil Tech Solutions",
+            "address": "Av. Francisco de Orellana 123, Guayaquil, Ecuador",
+            "phone": "+593 90000002",
+            "website": "https://guayaquiltech.ec",
+            "image": "tech.webp",
+            "membership": 2
+        },
+        {
+            "name": "Guayaquil Digital Hub",
+            "address": "APuerto Santa Ana, Guayaquil, Ecuador",
+            "phone": "+593 90000003",
+            "website": "https://digitalhubgye.bo",
+            "image": "digital.webp",
+            "membership": 3
+        },
+        {
+            "name": "Pacific Foods Ecuador",
+            "address": "Av. 9 de Octubre 789, Guayaquil, Ecuador",
+            "phone": "+593 90000004",
+            "website": "https://pacificfoods.ec",
+            "image": "foods.webp",
+            "membership": 1
+        },
+        {
+            "name": "EcoBuild Ecuador",
+            "address": "Vía a la Costa km 6, Guayaquil, Ecuador",
+            "phone": "+593 90000005",
+            "website": "https://ecobuild.ec",
+            "image": "construction.webp",
+            "membership": 3
+        },
+        {
+            "name": "Smart Services GYE",
+            "address": "Urdesa Central, Guayaquil, Ecuador",
+            "phone": "+593 90000006",
+            "website": "https://smartservicesgye.ec",
+            "image": "services.webp",
+            "membership": 3
+        },
+        {
+            "name": "Innova Marketing EC",
+            "address": "Av. del Bombrero 321, Guayaquil, Ecuador",
+            "phone": "+593 90000007",
+            "website": "https://innovamarketingec.bo",
+            "image": "marketing.webp",
+            "membership": 2
+        }
+    ]
+}

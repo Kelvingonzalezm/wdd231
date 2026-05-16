@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guayaquil Chamber Directory</title>
+    <meta name="description"
+        content="Official business directory for the Guayaquil Chamber of Commerce featuring local companies, services, and organizations in Guayaquil, Ecuador.">
+    <meta name="author" content="Kelvin Gonzalez">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <meta property="og:title" content="Guayaquil Chamber Directory">
+    <meta property="og:description"
+        content="Explore the Guayaquil Chamber of Commerce business directory with local companies and member organizations in Guayaquil, Ecuador.">
+    <meta property="og:image" content="https://kelvingonzalezm.github.io/wdd231/images/chamber.webp">
+    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/chamber/directory.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/directory.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/chamber.webp" alt="Guayaquil Chamber Logo">
+
+            <span>Guayaquil Chamber of Commerce</span>
+        </div>
+
+        <button id="nav-button" class="hamburger" aria-label="navigation">≡</button>
+    </header>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html" class="active">Directory</a>
+        <a href="join.html">Join</a>
+    </nav>
+
+    <main>
+        <h1>Business Directory</h1>
+
+        <div class="view-buttons">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </div>
+
+        <div id="members"></div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guayaquil Chamber of Commerce</strong></p>
+            <p>Guayaquil, Ecuador</p>
+            <p>info@guayaquilchamber.com</p>
+            <p>+593 98000000</p>
+        </div>
+        <div class="footer-info">
+            <p>&copy;<span id="currentyear"></span> Kelvin Gonzalez | WDD 231</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
