@@ -59,7 +59,7 @@ header span {
 .logo {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start;
 }
 
 /* ====== Navigation ====== */
