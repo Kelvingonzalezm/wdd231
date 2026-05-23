@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guayaquil Chamber of Commerce</title>
+    <meta name="description"
+        content="Welcome to the Guayaquil Chamber of Commerce. Explore local businesses, upcoming events, and opportunities to grow your network in Guayaquil, Ecuador.">
+    <meta name="author" content="Kelvin Gonzalez Mora">
+    <meta property="og:title" content="Guayaquil Chamber of Commerce">
+    <meta property="og:description" content="Official home page of the Guayaquil Chamber of Commerce.">
+    <meta property="og:image" content="https://kelvingonzalezm.github.io/wdd231/chamber/images/chamber.webp">
+    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/chamber/index.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlights.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/chamber.webp" alt="Guayaquil Chamber Logo" width="50" height="50">
+            <span>Guayaquil Chamber of Commerce</span>
+        </div>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation menu">≡</button>
+    </header>
+
+    <nav id="nav-menu">
+        <a href="index.html" class="active">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="join.html">Join</a>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero.webp" alt="Guayaquil city view">
+
+            <div class="hero-text">
+                <h1>Welcome to the Guayaquil Chamber of Commerce</h1>
+            </div>
+
+            <a href="join.html" class="cta-button">Join the Chamber</a>
+        </section>
+
+        <div class="home-grid">
+
+            <section class="events">
+                <h2>Events</h2>
+                <p>Attend our upcoming business networking event this Thursday at 7:00 PM along the Malecón 2000 in
+                    Guayaquil.</p>
+            </section>
+
+            <section class="weather">
+                <h2>Weather</h2>
+                <p>Temperature: <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="images/weather.webp" alt="Weather icon">
+                    <figcaption></figcaption>
+                </figure>
+            </section>
+
+            <section class="forecast">
+                <h2>Forecast</h2>
+                <p>3-Day Forecast:</p>
+                <ul id="forecast"></ul>
+            </section>
+        </div>
+
+        <section class="spotlights">
+            <h2>Company Spotlights</h2>
+            <div id="spotlight-container"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guayaquil Chamber of Commerce</strong></p>
+            <p>Guayaquil, Ecuador</p>
+            <p>info@guayaquilchamber.com</p>
+            <p>+593 98765432</p>
+        </div>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kelvin-j-gonzalez/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Kelvingonzalezm/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub">
+            </a>
+            <a href="https://x.com/KelvinK85288" target="_blank">
+                <img src="images/twitter_x.webp" alt="X">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Kelvin Gonzalez Mora - Ecuador</p>
+            <p>&copy;2026 Guayaquil Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>
+
+</html>
