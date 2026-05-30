@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guayaquil Chamber of Commerce</title>
+    <title>Join the Chamber | Guayaquil Chamber of Commerce</title>
     <meta name="description"
-        content="Welcome to the Guayaquil Chamber of Commerce. Explore local businesses, upcoming events, and opportunities to grow your network in Guayaquil, Ecuador.">
+        content="Apply for membership with the Guayaquil Chamber of Commerce and access networking opportunities, business resources, and community events.">
     <meta name="author" content="Kelvin Gonzalez Mora">
-    <meta property="og:title" content="Guayaquil Chamber of Commerce">
-    <meta property="og:description" content="Official home page of the Guayaquil Chamber of Commerce.">
+    <meta property="og:title" content="Join the Chamber | Guayaquil Chamber of Commerce">
+    <meta property="og:description" content="Apply for membership with the Guayaquil Chamber of Commerce.">
     <meta property="og:image" content="https://kelvingonzalezm.github.io/wdd231/chamber/images/chamber.webp">
-    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/chamber/index.html">
+    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/chamber/join.html">
     <meta property="og:type" content="website">
 
     <link rel="icon" href="favicon.ico">
@@ -25,8 +25,7 @@
     <link rel="stylesheet" href="styles/large.css">
 
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
-    <script src="scripts/spotlights.js" defer></script>
+    <script src="scripts/join.js" defer></script>
 </head>
 
 <body>
@@ -39,50 +38,35 @@
     </header>
 
     <nav id="nav-menu">
-        <a href="index.html" class="active">Home</a>
+        <a href="index.html">Home</a>
         <a href="discover.html">Discover</a>
         <a href="directory.html">Directory</a>
-        <a href="join.html">Join</a>
+        <a href="join.html" class="active">Join</a>
     </nav>
 
     <main>
-        <section class="hero">
-            <img src="images/hero.webp" alt="Guayaquil city view">
-
-            <div class="hero-text">
-                <h1>Welcome to the Guayaquil Chamber of Commerce</h1>
-            </div>
-
-            <a href="join.html" class="cta-button">Join the Chamber</a>
+        <h1>Application Submitted Successfully!</h1>
+        
+        <section>
+            <p>Thank you for applying to join the Guayaquil Chamber of Commerce.</p>
+            <p>Your membership application has been successfully received.</p>
+            <p>We appreciate your interest in becoming part of our business community.</p>
         </section>
-
-        <div class="home-grid">
-
-            <section class="events">
-                <h2>Events</h2>
-                <p>Attend our upcoming business networking event this Thursday at 7:00 PM along the Malecón 2000 in
-                    Guayaquil.</p>
-            </section>
-
-            <section class="weather">
-                <h2>Weather</h2>
-                <p>Temperature: <span id="current-temp"></span></p>
-                <figure>
-                    <img id="weather-icon" src="images/weather.webp" alt="Weather icon">
-                    <figcaption></figcaption>
-                </figure>
-            </section>
-
-            <section class="forecast">
-                <h2>Forecast</h2>
-                <p>3-Day Forecast:</p>
-                <ul id="forecast"></ul>
-            </section>
-        </div>
-
-        <section class="spotlights">
-            <h2>Company Spotlights</h2>
-            <div id="spotlight-container"></div>
+        
+        <section>
+            <h2>What Happens Next?</h2>
+            <p>Our team will review your application and verify the information provided.</p>
+            <p>Once the review process is complete, we will contact you with the next steps regarding your membership.</p>
+        </section>
+        
+        <section>
+            <h2>Application Summary</h2>
+            <p><strong>First Name:</strong> <span id="first"></span></p>
+            <p><strong>Last Name:</strong> <span id="last"></span></p>
+            <p><strong>Email:</strong> <span id="email"></span></p>
+            <p><strong>Mobile Phone:</strong> <span id="phone"></span></p>
+            <p><strong>Business Name:</strong> <span id="business"></span></p>
+            <p><strong>Submitted On:</strong> <span id="timestamp"></span></p>
         </section>
     </main>
 

@@ -1,11 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join</title>
+    <title>Join the Chamber | Guayaquil Chamber of Commerce</title>
+    <meta name="description"
+        content="Apply for membership with the Guayaquil Chamber of Commerce and access networking opportunities, business resources, and community events.">
+    <meta name="author" content="Kelvin Gonzalez Mora">
+    <meta property="og:title" content="Join the Chamber | Guayaquil Chamber of Commerce">
+    <meta property="og:description" content="Apply for membership with the Guayaquil Chamber of Commerce.">
+    <meta property="og:image" content="https://kelvingonzalezm.github.io/wdd231/chamber/images/chamber.webp">
+    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/chamber/join.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
 </head>
+
 <body>
-    
+    <header>
+        <div class="logo">
+            <img src="images/chamber.webp" alt="Guayaquil Chamber Logo" width="50" height="50">
+            <span>Guayaquil Chamber of Commerce</span>
+        </div>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation menu">≡</button>
+    </header>
+
+    <nav id="nav-menu">
+        <a href="index.html">Home</a>
+        <a href="discover.html">Discover</a>
+        <a href="directory.html">Directory</a>
+        <a href="join.html" class="active">Join</a>
+    </nav>
+
+    <main>
+        <h1>Join the Chamber</h1>
+
+        <section>
+            <p>Join the Guayaquil Chamber of Commerce and connect with local businesses, networking opportunities,
+                professional training, and community events.</p>
+        </section>
+
+        <div class="join-layout">
+            <form method="GET" action="thankyou.html">
+                <h2>Membership Application Form</h2>
+                <label>
+                    First Name <input type="text" name="first" required title="Enter your first name"
+                        autocomplete="given-name">
+                </label>
+                <label>
+                    Last Name <input type="text" name="last" required title="Enter your last name"
+                        autocomplete="family-name">
+                </label>
+
+                <label>
+                    Organizational Title <input type="text" name="orgtitle" title="Enter your organizational title"
+                        autocomplete="organization-title" pattern="[A-Za-z -]{7,}">
+                </label>
+                <label>
+                    Email Address <input type="email" name="email" required title="Enter your email"
+                        autocomplete="email" placeholder="example@email.com">
+                </label>
+                <label>
+                    Mobile Phone Number <input type="tel" name="phone" required title="Enter your phone number"
+                        autocomplete="tel">
+                </label>
+                <label>
+                    Business / Organization Name <input type="text" name="business" required
+                        title="Enter your business name" autocomplete="organization">
+                </label>
+
+                <fieldset>
+                    <legend>Membership Level</legend>
+
+                    <label><input type="radio" name="membership" value="np" required>NP Membership</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                </fieldset>
+
+                <label>
+                    Business Description <textarea name="description" title="Describe your business"></textarea>
+                </label>
+
+                <input type="hidden" name="timestamp" id="timestamp">
+
+                <input type="submit" value="Submit Application">
+            </form>
+
+            <section class="membership-cards">
+                <h2>Membership Levels</h2>
+
+                <div class="cards-container">
+                    <div class="card">
+                        <h3>Community Partner Membership</h3>
+                        <button data-modal="npModal">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>Bronze Business Membership</h3>
+                        <button data-modal="bronzeModal">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>Silver Business Membership</h3>
+                        <button data-modal="silverModal">Learn More</button>
+                    </div>
+                    <div class="card">
+                        <h3>Gold Premium Membership</h3>
+                        <button data-modal="goldModal">Learn More</button>
+                    </div>
+                </div>
+
+                <dialog id="npModal">
+                    <h3>NP Membership</h3>
+                    <p>Free membership for non-profit organizations. Includes a business directory listing and access to
+                        community events.</p>
+                    <button data-close>Close</button>
+                </dialog>
+                <dialog id="bronzeModal">
+                    <h3>Bronze Membership</h3>
+                    <p>Includes networking opportunities, chamber communications, and participation in selected business
+                        events.</p>
+                    <button data-close>Close</button>
+                </dialog>
+                <dialog id="silverModal">
+                    <h3>Silver Membership</h3>
+                    <p>Includes professional workshops, promotional opportunities, and discounts on chamber programs.
+                    </p>
+                    <button data-close>Close</button>
+                </dialog>
+                <dialog id="goldModal">
+                    <h3>Gold Membership</h3>
+                    <p>Premium visibility, featured promotions, sponsorship opportunities, and exclusive event
+                        discounts.</p>
+                    <button data-close>Close</button>
+                </dialog>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guayaquil Chamber of Commerce</strong></p>
+            <p>Guayaquil, Ecuador</p>
+            <p>info@guayaquilchamber.com</p>
+            <p>+593 98765432</p>
+        </div>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kelvin-j-gonzalez/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn">
+            </a>
+            <a href="https://github.com/Kelvingonzalezm/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub">
+            </a>
+            <a href="https://x.com/KelvinK85288" target="_blank">
+                <img src="images/twitter_x.webp" alt="X">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Kelvin Gonzalez Mora - Ecuador</p>
+            <p>&copy;2026 Guayaquil Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
 </body>
+
 </html>
