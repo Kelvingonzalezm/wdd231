@@ -1,0 +1,32 @@
+body {
+    background-color: #FFFFFF;
+    color: #333333;
+    font-family: Roboto, sans-serif;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    border-bottom: 3px solid #F48400;
+    margin-bottom: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+    color: #1F3A5F;
+}
+
+a {
+    color: #F48400;
+}
+
+pre {
+    border: 1px solid #1F3A5F;
+    padding: 1rem;
+    background-color: #F5F5F5;
+    overflow-x: auto;
+}
