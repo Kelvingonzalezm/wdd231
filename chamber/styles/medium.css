@@ -1,0 +1,50 @@
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+
+    /* ====== Discover Cards Tablet Layout ======*/
+    .discover-card {
+        grid-template-areas:
+            "title title"
+            "image address"
+            "image description"
+            "button button";
+        grid-template-columns: 1fr 1fr;
+        align-items: start;
+    }
+
+    /* ====== Discover Image Hover Effect ======*/
+    .discover-card img {
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .discover-card img:hover {
+        transform: scale(1.05);
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+    }
+
+    /* ====== Hero Image Adjustment ======*/
+    .hero img {
+        height: 300px;
+    }
+
+    /* ====== Join Page Layout (Tablet) ======*/
+    .join-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* ====== Footer Layout (Tablet) ======*/
+    footer {
+        display: grid;
+        grid-template-columns: 1fr auto 1fr;
+        align-items: center;
+        text-align: left;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    .footer-info {
+        text-align: right;
+    }
+}
