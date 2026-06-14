@@ -1,0 +1,58 @@
+@media (min-width: 640px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    /* ====== NAV DESKTOP ====== */
+    #nav-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1rem;
+        margin-left: auto;
+    }
+
+    #nav-menu a {
+        padding: 0.5rem 1rem;
+    }
+
+    /* ====== HAMBURGER INVISIBLE ====== */
+    .hamburger {
+        display: none;
+    }
+
+    /* ====== GRID 2 COLUMN ====== */
+    #foods-container,
+    #featured-foods-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-text {
+        font-size: 1.2rem;
+    }
+
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        text-align: left;
+    }
+
+    .footer-contact,
+    .social,
+    .footer-info {
+        flex: 1;
+    }
+
+    .social {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

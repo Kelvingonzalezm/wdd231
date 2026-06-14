@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Guayaquil Food Guide</title>
+    <meta name="description"
+        content="Contact Guayaquil Food Guide to share restaurant recommendations, favorite dishes, and questions about local food experiences. Guayaquil, Ecuador.">
+    <meta name="author" content="Kelvin Gonzalez Mora">
+    <meta property="og:title" content="Contact | Guayaquil Food Guide">
+    <meta property="og:description"
+        content="Send restaurant recommendations and questions about Guayaquil's food scene.">
+    <meta property="og:image" content="https://kelvingonzalezm.github.io/wdd231/final-project/images/hero.webp">
+    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/final-project/form.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/form.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/hero.webp" alt="Guayaquil Food Guide Logo" width="50" height="50">
+            <span>Guayaquil Food Guide</span>
+        </div>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation menu">≡</button>
+
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="foods.html">Foods</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="form.html" class="active">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Contact Us</h1>
+
+        <section class="contact-intro">
+            <p>Have a food recommendation or a question about Guayaquil's food scene?
+                Send us a message using the form below.</p>
+        </section>
+
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <label>Full Name*<input type="text" name="fullname" required></label>
+                <label>Email Address*<input type="email" name="email" required></label>
+                <label>Favorite Food*<input type="text" name="favoritefood"></label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message</legend>
+
+                <label>Food Recommendation<input type="text" name="restaurant"></label>
+                <label>Message*<textarea name="message" rows="5" required></textarea></label>
+            </fieldset>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guayaquil Food Guide</strong></p>
+            <p>Guayaquil, Ecuador</p>
+            <p>info@guayaquilfoodguide.com</p>
+            <p>+593 98765432</p>
+        </div>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kelvin-j-gonzalez/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn" loading="lazy">
+            </a>
+            <a href="https://github.com/Kelvingonzalezm/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub" loading="lazy">
+            </a>
+            <a href="https://x.com/KelvinK85288" target="_blank">
+                <img src="images/twitter_x.webp" alt="X" loading="lazy">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Kelvin Gonzalez Mora - Ecuador</p>
+            <p>&copy;2026 Guayaquil Food Guide</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+            <a href="attributions.html">Attributions</a>
+            <p><a href="https://youtube.com/" target="_blank">Video Demostration</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

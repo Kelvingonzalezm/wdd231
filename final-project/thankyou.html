@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You | Guayaquil Food Guide</title>
+    <meta name="description"
+        content="Thank you for contacting Guayaquil Food Guide. View the information submitted through the contact form.">
+    <meta name="author" content="Kelvin Gonzalez Mora">
+    <meta property="og:title" content="Thank You | Guayaquil Food Guide">
+    <meta property="og:description"
+        content="Thank you for contacting Guayaquil Food Guide and submitting your information.">
+    <meta property="og:image" content="https://kelvingonzalezm.github.io/wdd231/final-project/images/hero.webp">
+    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/final-project/thankyou.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/thankyou.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/hero.webp" alt="Guayaquil Food Guide Logo" width="50" height="50">
+            <span>Guayaquil Food Guide</span>
+        </div>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation menu">≡</button>
+
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="foods.html">Foods</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="form.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Thank You!</h1>
+
+        <section class="thankyou-message">
+            <p>Thank you for contacting Guayaquil Food Guide</p>
+            <p>We have received your message and appreciate your interest in Guayaquil's food culture.</p>
+        </section>
+
+        <section class="submitted-info">
+            <h2>Your Submitted Information</h2>
+
+            <p><strong>Full Name:</strong><span id="fullname"></span></p>
+            <p><strong>Email Address:</strong><span id="email"></span></p>
+            <p><strong>Favorite Food:</strong><span id="favoritefood"></span></p>
+            <p><strong>Food Recommendation:</strong><span id="restaurant"></span></p>
+            <p><strong>Message:</strong><span id="message"></span></p>
+        </section>
+
+        <p><a href="index.html">Return to Home Page</a></p>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guayaquil Food Guide</strong></p>
+            <p>Guayaquil, Ecuador</p>
+            <p>info@guayaquilfoodguide.com</p>
+            <p>+593 98765432</p>
+        </div>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kelvin-j-gonzalez/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn" loading="lazy">
+            </a>
+            <a href="https://github.com/Kelvingonzalezm/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub" loading="lazy">
+            </a>
+            <a href="https://x.com/KelvinK85288" target="_blank">
+                <img src="images/twitter_x.webp" alt="X" loading="lazy">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Kelvin Gonzalez Mora - Ecuador</p>
+            <p>&copy;2026 Guayaquil Food Guide</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+            <a href="attributions.html">Attributions</a>
+            <p><a href="https://youtube.com/" target="_blank">Video Demostration</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>

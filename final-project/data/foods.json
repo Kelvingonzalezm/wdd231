@@ -1,0 +1,123 @@
+[
+    {
+        "name": "Encebollado",
+        "category": "Seafood",
+        "ingredients": "Tuna, yuca, red onion",
+        "description": "Traditional fish soup commonly eaten for breakfast in Ecuador.",
+        "origin": "Guayaquil",
+        "image": "images/encebollado.webp"
+    },
+    {
+        "name": "Ceviche de Camaron",
+        "category": "Seafood",
+        "ingredients": "Shrimp, tomato sauce, onion, lime",
+        "description": "Popular coastal seafood dish served cold with plantain chips.",
+        "origin": "Ecuadorian Coast",
+        "image": "images/ceviche-camaron.webp"
+    },
+    {
+        "name": "Sopa Marinera",
+        "category": "Soups",
+        "ingredients": "Fish, shrimp, squid, vegetables",
+        "description": "Rich seafood soup prepared with a variety of coastal ingredients.",
+        "origin": "Guayaquil",
+        "image": "images/sopa-marinera.webp"
+    },
+    {
+        "name": "Caldo de Bola",
+        "category": "Soups",
+        "ingredients": "Green plantain, beef, vegetables",
+        "description": "Traditional soup with stuffed green plantain dumplings.",
+        "origin": "Ecuador",
+        "image": "images/caldo-de-bola.webp"
+    },
+    {
+        "name": "Bolon de Verde",
+        "category": "Street Food",
+        "ingredients": "Green plantain, cheese, pork",
+        "description": "Mashed plantain ball often served for breakfast.",
+        "origin": "Guayaquil",
+        "image": "images/bolon-de-verde.webp"
+    },
+    {
+        "name": "Empanada de Verde",
+        "category": "Street Food",
+        "ingredients": "Green plantain, cheese",
+        "description": "Fried plantain pastry filled with cheese.",
+        "origin": "Ecuadorian Coast",
+        "image": "images/empanada-de-verde.webp"
+    },
+    {
+        "name": "Maduro con Queso",
+        "category": "Street Food",
+        "ingredients": "Sweet plantain, cheese",
+        "description": "Baked ripe plantain stuffed with cheese.",
+        "origin": "Guayaquil",
+        "image": "images/maduro-con-queso.webp"
+    },
+    {
+        "name": "Corviche",
+        "category": "Street Food",
+        "ingredients": "Green plantain, tuna, peanuts",
+        "description": "Fried plantain roll stuffed with seasoned fish.",
+        "origin": "Ecuadorian Coast",
+        "image": "images/corviche.webp"
+    },
+    {
+        "name": "Arroz con Menestra",
+        "category": "Street Food",
+        "ingredients": "Rice, beans, grilled meat",
+        "description": "One of Ecuador's most popular everyday meals.",
+        "origin": "Guayaquil",
+        "image": "images/arroz-con-menestra.webp"
+    },
+    {
+        "name": "Tigrillo",
+        "category": "Street Food",
+        "ingredients": "Green plantain, egg, cheese",
+        "description": "Traditional breakfast dish from coastal Ecuador",
+        "origin": "Ecuador",
+        "image": "images/tigrillo.webp"
+    },
+    {
+        "name": "Tres Leches Cake",
+        "category": "Desserts",
+        "ingredients": "Milk, sponge cake, cream",
+        "description": "Soft sponge cake soaked in three types of milk.",
+        "origin": "Latin America",
+        "image": "images/tres-leches.webp"
+    },
+    {
+        "name": "Higos con Queso",
+        "category": "Desserts",
+        "ingredients": "Figs, panela syrup, cheese",
+        "description": "Traditional Ecuadorian dessert served warm.",
+        "origin": "Ecuador",
+        "image": "images/higos-con-queso.webp"
+    },
+    {
+        "name": "Dulce de Guayaba",
+        "category": "Desserts",
+        "ingredients": "Guava, sugar",
+        "description": "Sweet guava dessert popular across Ecuador.",
+        "origin": "Ecuador",
+        "image": "images/dulce-de-guayaba.webp"
+    },
+    {
+        "name": "Cocada",
+        "category": "Desserts",
+        "ingredients": "Coconut, sugar",
+        "description": "Sweet coconut candy commonly sold by street vendors.",
+        "origin": "Ecuadorian Coast",
+        "image": "images/cocada.webp"
+    },
+    {
+        "name": "Espumilla",
+        "category": "Desserts",
+        "ingredients": "Fruit puree, egg whites, sugar",
+        "description": "Light and colorful street dessert often compared to meringue.",
+        "origin": "Guayaquil",
+        "image": "images/espumilla.webp"
+    }
+   
+]

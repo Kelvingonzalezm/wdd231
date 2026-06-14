@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traditional Foods | Guayaquil Food Guide</title>
+    <meta name="description"
+        content="Discover traditional foods, local ingredients, and culinary traditions from Guayaquil, Ecuador.">
+    <meta name="author" content="Kelvin Gonzalez Mora">
+    <meta property="og:title" content="Traditional Foods | Guayaquil Food Guide">
+    <meta property="og:description"
+        content="Explore traditional foods and culinary traditions from Guayaquil, Ecuador.">
+    <meta property="og:image" content="https://kelvingonzalezm.github.io/wdd231/final-project/images/hero.webp">
+    <meta property="og:url" content="https://kelvingonzalezm.github.io/wdd231/final-project/foods.html">
+    <meta property="og:type" content="website">
+
+    <link rel="icon" href="favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+
+    <script src="scripts/navigation.js" defer></script>
+    <script type="module" src="scripts/foods.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/hero.webp" alt="Guayaquil Food Guide Logo" width="50" height="50">
+            <span>Traditional Foods of Guayaquil</span>
+        </div>
+        <button id="nav-button" class="hamburger" aria-label="Toggle navigation menu">≡</button>
+
+        <nav id="nav-menu">
+            <a href="index.html">Home</a>
+            <a href="foods.html" class="active">Foods</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="form.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Traditional Foods of Guayaquil</h1>
+
+        <section class="foods-intro">
+            <p>Discover some of the most popular traditional foods from Guayaquil and Ecuador's coastal region. Learn
+                about local flavors, ingredients, and culinary traditions.</p>
+        </section>
+
+        <section class="filters">
+            <h2>Filter Foods</h2>
+
+            <button id="all">All</button>
+            <button id="seafood">Seafood</button>
+            <button id="soups">Soups</button>
+            <button id="streetfood">Street Food</button>
+            <button id="dessert">Desserts</button>
+        </section>
+
+        <section class="food-list">
+            <h2>Featured Foods</h2>
+            <div id="foods-container"></div>
+        </section>
+
+        <dialog id="food-modal" aria-labelledby="modal-title">
+            <button id="close-modal" aria-label="Close dialog">✖</button>
+            <div id="modal-content"></div>
+        </dialog>
+    </main>
+
+    <footer>
+        <div class="footer-contact">
+            <p><strong>Guayaquil Food Guide</strong></p>
+            <p>Guayaquil, Ecuador</p>
+            <p>info@guayaquilfoodguide.com</p>
+            <p>+593 98765432</p>
+        </div>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/kelvin-j-gonzalez/" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn" loading="lazy">
+            </a>
+            <a href="https://github.com/Kelvingonzalezm/wdd231" target="_blank">
+                <img src="images/github.webp" alt="GitHub" loading="lazy">
+            </a>
+            <a href="https://x.com/KelvinK85288" target="_blank">
+                <img src="images/twitter_x.webp" alt="X" loading="lazy">
+            </a>
+        </div>
+
+        <div class="footer-info">
+            <p>WDD231 Class Project</p>
+            <p>Kelvin Gonzalez Mora - Ecuador</p>
+            <p>&copy;2026 Guayaquil Food Guide</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+            <a href="attributions.html">Attributions</a>
+            <p><a href="https://youtube.com/" target="_blank">Video Demostration</a></p>
+        </div>
+    </footer>
+</body>
+
+</html>
